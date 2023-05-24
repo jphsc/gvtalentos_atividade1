@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    list-style: none;
+}
+
+body{
+    position: relative;
+    width: 1200px;
+    height: 1283px;
+    margin: 0 auto;
+}
+
+
+.cabecalho__navegacao{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+}
+
+.cabecalho__navegacao__logo{
+    position: absolute;
+    width: 285px;
+    height: 66px;
+    left: 45px;
+    top: 5px;
+}
+
+.cabecalho__navegacao__links{
+    position: absolute;
+    display: flex;
+    height: 16px;
+    left: 808px;
+    top: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.cabecalho__navegacao__links__link{
+    display: flex;
+    margin: 0 20px;
+    letter-spacing: 0.64px;
+    color: #444D4A;
+}
+
+.logo{
+    color: #17DDA4;
+}
+
+.cabecalho__breadcrumb{
+    position: absolute;
+    width: 1200px;
+    height: 202px;
+    left: 0px;
+    top: 110px;
+    background: url('./assets/topo1.png');
+}
+
+.cabecalho__breadcrumb__paragrafo{
+    position: absolute;
+    width: 179px;
+    height: 22px;
+    left: 45px;
+    top: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.cabecalho__breadcrumb__h1{
+    position: absolute;
+    top: 92px;
+    left: 45px;
+    width: 207px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 31px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.detalhes{
+    position: absolute;
+    top: 395px;
+}
+
+.detalhes__titulo{
+    position: absolute;
+    left: 45px;
+    width: 847px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 45px;
+    letter-spacing: 2.16px;
+    color: #222222;
+}
+
+.detalhes__paragrafo{
+    position: absolute;
+    top: 86px;
+    left: 45px;
+    right: 61px;
+    width: 1094px;
+    height: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #222222;
+}
+
+.treinamentos{
+    position: absolute;
+    top: 582px;
+    left: 45px;
+}
+
+.treinamentos__titulo{
+    position: absolute;
+    width: 182px;
+    height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 1.68px;
+    color: #222222;
+}
+
+.treinamentos__status{
+    top: 52px;
+    position: absolute;
+    /* width: 254px; */
+    height: 41px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 3px 0px 0px 3px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.treinamentos__status__item1{
+    position: absolute;
+    left: 0px;
+    width: 127px;
+    height: 41px;
+    background: #17DDA4;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 3px 0px 0px 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #444D4A;
+    
+}
+
+.treinamentos__status__item2{
+    position: absolute;
+    left: 127px;
+    width: 127px;
+    height: 41px;
+    background: #444D4A;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 0px 3px 3px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.treinamentos__cursos{
+    display: flex;
+    position: absolute;
+    top: 119px;
+    width: 1200px;
+}
+
+.treinamentos__cursos__curso{
+    width: 350px;
+    height: 485px;
+    margin-right: 30px;
+    border: 3px solid #F2F2F2;
+}
+
+.treinamentos__cursos__curso__img{
+    width: 350px;
+    height: 195px;
+}
+
+.treinamentos__cursos__curso__titulo{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    width: 141px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #222222;
+}
+
+.treinamentos__cursos__curso__lista{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #222222;
+}
+
+.treinamentos__cursos__curso__button{
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 129px;
+    height: 53px;
+    background: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rodape{
+    box-sizing: border-box;
+    position: absolute;
+    top: 1195px;
+    width: 1200px;
+    height: 499px;
+    background-color: #444D4A;
+    margin-top: 61px;
+}
+
+.rodape__secoes{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__secoes__secao{
+    box-sizing: border-box;
+    position: relative;
+    top: 86px;
+    width: 350px;
+    /* border: 1px solid white; */
+    height: 318px;
+    margin: 0 15px;
+}
+
+.rodape__secoes__secao__imagem{
+    width: 197px;
+    height: 45px;
+}
+
+.rodape__secoes__secao__paragrafo{
+    position: relative;
+    top: 39px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.rodape__secoes__secao__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 1.04px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.rodape__secoes__divisao{
+    position: relative;
+    top: 96px;
+}
+
+.rodape__secoes__secao__data{
+    position: relative;
+    margin-left: 24px;
+    top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rodape__secoes__secao__lista{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.rodape__secoes__secao__lista__item{
+    position: relative;
+    top: 34px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rodape__about{
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 45px;
+}
+
+.rodape__about__paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rodape__about__socialnetworks{
+    display: flex;
+}
+
+.rodape__about__socialnetworks__network{
+    background-color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
